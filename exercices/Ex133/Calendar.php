@@ -1,6 +1,6 @@
 <?php
     $day = 1;
-    echo '<table style="width: 100%" cellpadding="5px">';
+    echo '<table style="width: 100%">';
     echo '<caption>';
         echo '<h1>';
             echo date("F");
@@ -14,7 +14,7 @@
                 if($day % 2 == 0)
                     {echo '<td style="width: 80px">';}
                 else
-                    {echo '<td style="width: 80px" bgcolor="aqua">';}
+                    {echo '<td style="width: 80px" bgcolor="#adff2f">';}
                 if($day > 31)
                     {}
                 else
