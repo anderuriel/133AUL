@@ -14,7 +14,7 @@
                 if($day % 2 == 0)
                     {echo '<td style="width: 80px">';}
                 else
-                    {echo '<td style="width: 80px" bgcolor="#adff2f">';}
+                    {echo '<td style="width: 80px" bgcolor="#6495ed" >';}
                 if($day > 31)
                     {}
                 else
